@@ -2,14 +2,14 @@
 namespace App\Formats;
 
 /**
- * Undocumented class
+ * XmlFormat class
  */
 class XmlFormat 
 {
     /**
-     * Undocumented function
+     * Parse file
      *
-     * @param string $filename
+     * @param string $filename 
      * @return array
      */
     public function parse(string $filename): array

@@ -1,8 +1,17 @@
 <?php
 namespace App\Formats;
 
+/**
+ * CsvFormat class
+ */
 class CsvFormat 
 {
+    /**
+     * Parse file
+     *
+     * @param string $filename 
+     * @return array
+     */
     public function parse(string $filename): array
     {
         $data = [];
