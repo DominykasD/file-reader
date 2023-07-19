@@ -1,5 +1,8 @@
 <?php
 namespace App\Helpers;
+include 'C:\xampp\htdocs\app\formats\CsvFormat.php';
+include 'C:\xampp\htdocs\app\formats\JsonFormat.php';
+include 'C:\xampp\htdocs\app\formats\XmlFormat.php';
 
 class FileLoader
 {
